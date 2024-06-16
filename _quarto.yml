@@ -6,11 +6,23 @@ book:
   title: "quarto-book"
   author: "Norah Jones"
   date: "6/16/2024"
+  search: true    
   chapters:
     - index.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
+    
+website:
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - intro.qmd
+      - summary.qmd     
+    
 
 bibliography: references.bib
 
